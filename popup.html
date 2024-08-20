@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Todo List</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      width: 200px;
+      padding: 10px;
+    }
+    input {
+      width: calc(100% - 22px);
+      padding: 5px;
+    }
+    button {
+      margin-top: 10px;
+      width: 100%;
+      padding: 5px;
+      background-color: #4CAF50;
+      color: white;
+      border: none;
+      cursor: pointer;
+    }
+    ul {
+      padding: 0;
+      list-style-type: none;
+    }
+    li {
+      padding: 5px 0;
+    }
+  </style>
+</head>
+<body>
+    <h3>To-Do List</h3>
+    <input type="text" id="taskInput" placeholder="Add a new task">
+    <button id="addTaskBtn">Add</button>
+    <ul id="taskList"></ul>
+    
+    <script src="popup.js"></script>
+</body>
+</html>
